@@ -262,11 +262,11 @@
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
-.projs {
+.projects {
   padding-bottom: 2rem;
 }
 
-.projs__bio-image {
+.projects__bio-image {
   height: 30vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(128, 128, 128, 0.9)), to(rgba(255, 165, 0, 0.3))), url("../dist/img/a.jpg") center top;
@@ -287,12 +287,12 @@
           justify-content: flex-end;
 }
 
-.projs__bio-image .text-secondary {
+.projects__bio-image .text-secondary {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
-.projs__items {
+.projects__items {
   width: 60vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
@@ -302,19 +302,19 @@
   grid-gap: 2rem;
 }
 
-.projs__item {
+.projects__item {
   position: relative;
   border-bottom: 5px solid orange;
   overflow: hidden;
   cursor: pointer;
 }
 
-.projs__item img {
+.projects__item img {
   width: 100%;
 }
 
-.projs__item::after {
-  content: '';
+.projects__item::after {
+  content: "";
   position: absolute;
   top: 100%;
   left: 0;
@@ -326,16 +326,16 @@
   transition: all 0.5s ease-in-out;
 }
 
-.projs__item:hover::after {
+.projects__item:hover::after {
   top: 0;
   opacity: 0.9;
 }
 
-.projs__item:hover .projects__btn {
+.projects__item:hover .projects__btn {
   opacity: 1;
 }
 
-.projs__btns {
+.projects__btns {
   position: absolute;
   top: 0;
   height: 100%;
@@ -351,18 +351,18 @@
   text-align: center;
 }
 
-.projs__btn {
+.projects__btn {
   opacity: 0;
   color: white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
-.projs__btn:hover {
+.projects__btn:hover {
   color: white;
 }
 
-.projs .social-icons {
+.projects .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -372,7 +372,7 @@
           flex-direction: column;
 }
 
-.projs footer {
+.projects footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
