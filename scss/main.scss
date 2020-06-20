@@ -1,20 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 @import 'config';
-@import 'home';
-@import 'menu';
+// @import 'home';
+@import 'hero';
+@import 'header';
+@import 'media';
+@import 'animation';
+// @import 'menu';
 @import 'about';
-@import 'projects';
-@import 'contact';
-@import 'responsive';
+
+// @import 'projects';
+// @import 'contact';
+// @import 'responsive';
 
 body {
-  background: $primary-color;
-  color: set-text-color($primary-color);
-  height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1;
+  // background: $primary-color;
+  // color: set-text-color($primary-color);
+  // height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  // line-height: 1;
 }
 
-h1, h2, h3 {
+.container {
+  width: 80%;
+  margin: 2rem auto;
+
+  p{
+    margin: 1rem 0;
+  }
+
+}
+
+h2, h3 {
   font-weight: 400;
 }
 
@@ -27,12 +44,12 @@ a {
   color: $secondary-color;
 }
 
-header {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-  padding: 1rem;
-}
+// header {
+//   position: fixed;
+//   z-index: 2;
+//   width: 100%;
+//   padding: 1rem;
+// }
 
 main {
   height: 100%;
@@ -56,7 +73,7 @@ main {
 
 footer {
   font-size: 1rem;
-  position: fixed;
+  // position: fixed;
   bottom: 0.4rem;
   right: 1rem;
   text-align: right;

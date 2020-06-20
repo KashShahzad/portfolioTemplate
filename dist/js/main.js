@@ -5,6 +5,23 @@ const nav = document.querySelector(".nav");
 const menuNav = document.querySelector(".menu-nav");
 const navItem = document.querySelectorAll(".menu-nav__item");
 
+
+
+//for branch version
+const header = document.querySelector('.main-header')
+
+window.addEventListener('scroll', ()=> {
+  const scrollPos = window.scrollY;
+  if(scrollPos > 10){
+    header.classList.add('scrolled');
+  }else {
+    header.classList.remove('scrolled');
+  }
+})
+
+
+
+
 let showMenu = false;
 
 menuBtn.addEventListener("click", toggleMenu);
